@@ -44,9 +44,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', '.venv']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'supakeen'
+html_theme_path = ["./theme"]
 html_theme_options = {
-    "nosidebar": "false",
+    "nosidebar": "true",
 }
 html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.ico"
